@@ -12,7 +12,7 @@ function App() {
   console.log(store.getState());
   return (
     <div className="App">
-        <div style={{display:'flex'}}>
+        <div style={{display:'flex',justifyContent:'space-evenly'}}>
             <Link to="/">Home</Link>
             <Link to="/login">Login</Link>
         </div>
